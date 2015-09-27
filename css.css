@@ -1,0 +1,172 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background: #FFFFFF;
+	color: #A1B2B3;
+	font: 300 48px/1.5em source-sans-pro, sans-serif;
+}
+a, a:link, a:visited {
+	text-decoration: none;
+	outline: none;
+	color: #00DBDB;
+	border-bottom: 4px solid #FAFAFA;
+	-webkit-transition: color 200ms ease-in;
+	-moz-transition: color 200ms ease-in;
+	-o-transition: color 200ms ease-in;
+	-ms-transition: color 200ms ease-in;
+	transition: color 200ms ease-in;
+}
+a:hover, a:active {
+	text-decoration: none;
+	outline: none;
+	color: #A1B2B3;
+	-webkit-transition: color 200ms ease-in;
+	-moz-transition: color 200ms ease-in;
+	-o-transition: color 200ms ease-in;
+	-ms-transition: color 200ms ease-in;
+	transition: color 200ms ease-in;
+}
+img {
+	max-width: 100%;
+	height: auto;
+	border: 0px;
+}
+li, ul {
+	list-style: disc;
+}
+.blue, a.blue:link, a.blue:visited {
+	color: #00DBDB;
+	-webkit-transition: color 200ms ease-in;
+	-moz-transition: color 200ms ease-in;
+	-o-transition: color 200ms ease-in;
+	-ms-transition: color 200ms ease-in;
+	transition: color 200ms ease-in;
+}
+a.blue:hover, a.blue:active {
+	color: #A1B2B3;
+	-webkit-transition: color 200ms ease-out;
+	-moz-transition: color 200ms ease-out;
+	-o-transition: color 200ms ease-out;
+	-ms-transition: color 200ms ease-out;
+	transition: color 200ms ease-out;
+}
+.green, a.green:link, a.green:visited {
+	color: #77CC33;
+	-webkit-transition: color 200ms ease-in;
+	-moz-transition: color 200ms ease-in;
+	-o-transition: color 200ms ease-in;
+	-ms-transition: color 200ms ease-in;
+	transition: color 200ms ease-in;
+}
+a.green:hover, a.green:active {
+	color: #A1B2B3;
+	-webkit-transition: color 200ms ease-out;
+	-moz-transition: color 200ms ease-out;
+	-o-transition: color 200ms ease-out;
+	-ms-transition: color 200ms ease-out;
+	transition: color 200ms ease-out;
+}
+.orange, a.orange:link, a.orange:visited {
+	color: #FFBF00;
+	-webkit-transition: color 200ms ease-in;
+	-moz-transition: color 200ms ease-in;
+	-o-transition: color 200ms ease-in;
+	-ms-transition: color 200ms ease-in;
+	transition: color 200ms ease-in;
+}
+a.orange:hover, a.orange:active {
+	color: #A1B2B3;
+	-webkit-transition: color 200ms ease-out;
+	-moz-transition: color 200ms ease-out;
+	-o-transition: color 200ms ease-out;
+	-ms-transition: color 200ms ease-out;
+	transition: color 200ms ease-out;
+}
+.pink, a.pink:link, a.pink:visited {
+	color: #FF0099;
+	-webkit-transition: color 200ms ease-in;
+	-moz-transition: color 200ms ease-in;
+	-o-transition: color 200ms ease-in;
+	-ms-transition: color 200ms ease-in;
+	transition: color 200ms ease-in;
+}
+a.pink:hover, a.pink:active {
+	color: #A1B2B3;
+	-webkit-transition: color 200ms ease-out;
+	-moz-transition: color 200ms ease-out;
+	-o-transition: color 200ms ease-out;
+	-ms-transition: color 200ms ease-out;
+	transition: color 200ms ease-out;
+}
+a.mint, a.mint:link, a.mint:visited{
+	color: #AAF0D1;
+	-webkit-transition: color 200ms ease-out;
+	-moz-transition: color 200ms ease-out;
+	-o-transition: color 200ms ease-out;
+	-ms-transition: color 200ms ease-out;
+	transition: color 200ms ease-out;
+}
+
+a.purple, a.purple:link, a.purple:visited {
+	color:#9f00ff;
+	-webkit-transition: color 200ms ease-out;
+	-moz-transition: color 200ms ease-out;
+	-o-transition: color 200ms ease-out;
+	-ms-transition: color 200ms ease-out;
+	transition: color 200ms ease-out;
+
+}
+
+.name{color:#859293}
+
+.note, a.note:link, a.note:visited, a.note:hover, a.note:active {
+	color: #FFFFFF;
+	background-image: -webkit-gradient(linear, center top, center bottom, from(#ff229c), to(#ff3f45));
+	background-image: -webkit-linear-gradient(top, #ff229c, #ff3f45);
+	background-image: -moz-linear-gradient(top, #ff229c, #ff3f45);
+	background-image: -o-linear-gradient(top, #ff229c, #ff3f45);
+	background-image: -ms-linear-gradient(top, #ff229c, #ff3f45);
+	background-image: linear-gradient(to bottom, #ff229c, #ff3f45);
+	font: 300 48px/1.5em source-sans-pro, sans-serif;
+	padding: 5px 10px;
+	margin: 0px;
+	border-radius: 5px;
+	border-bottom: none;
+}
+article {
+	margin: 0px auto;
+	padding: 25px;
+	width: 600px;
+	background: #FFFFFF;
+	color: #A1B2B3;
+	font: 300 48px/1.5em source-sans-pro, sans-serif;
+}
+@media screen and (max-width: 800px) {
+article {
+	margin: 0px 25px;
+	padding: 25px;
+	width: auto;
+	color: #A1B2B3;
+	font: 300 48px/1.5em source-sans-pro, sans-serif;
+}
+}
+::selection {
+	background: #FF0099;
+	color: #FFFFFF;
+}
+::-moz-selection {
+	background: #FF0099;
+	color: #FFFFFF;
+}
+::-webkit-scrollbar {
+	width: 10px;
+}
+::-webkit-scrollbar-track {
+	background: #FFFFFF;
+}
+::-webkit-scrollbar-thumb {
+	background: #CCCCCC;
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: #CCCCCC;
+}
